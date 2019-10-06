@@ -1,0 +1,55 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Mini Dreamy Room",
+      "description": "Generous and comfortable theme modern furnished rooms offer two queen-size beds and are on the first floor",
+      "size": "20m2",
+      "beds": 1,
+      "people": 2,
+      "checkin": "15:00",
+      "checkout": "12:00",
+      "price": 20,
+      "bookings": [
+        "05/09/2019",
+        "06/09/2019",
+        "07/09/2019",
+        "08/10/2019",
+        "09/10/2019",
+        "10/10/2019",
+        "26/03/2019",
+        "27/03/2019",
+        "28/03/2019"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Seet Bungalow",
+      "description": "The perfect blend of comfort and culture, our superior room with a central garden view.",
+      "size": "50m2",
+      "beds": 1,
+      "people": 2,
+      "checkin": "14:00",
+      "checkout": "11:00",
+      "price": 35,
+      "bookings": [
+        "10/10/2019",
+        "26/03/2019",
+        "27/03/2019",
+        "28/03/2019"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Los Coco Suite",
+      "description": "If you want a little extra from your stay, you might like our superior room with a private beach",
+      "size": "125m2",
+      "beds": 3,
+      "people": 4,
+      "checkin": "14:00",
+      "checkout": "12:00",
+      "price": 45,
+      "bookings": []
+    }
+  ]
+}
