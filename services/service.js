@@ -39,12 +39,12 @@ exports.getRooms = (req, res) => {
   if (filteredRooms.length > 0) {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+    //res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
     res.end(JSON.stringify(response));
   } else {
     res.statusCode = 404;
     res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+    //res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
     res.end(JSON.stringify({ message: "No results" }));
   }
 };
@@ -68,7 +68,7 @@ exports.getOneRoom = (req, res) => {
   if (filteredRoom.length > 0) {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
-    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+    //res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
     res.end(JSON.stringify({ filteredRoom }));
   } else {
     res.statusCode = 404;
@@ -82,6 +82,6 @@ exports.getOneRoom = (req, res) => {
 exports.invalidRequest = function (req, res) {
   res.statusCode = 404;
   res.setHeader('Content-Type', 'text/plain');
-  res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
+  //res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:5500');
   res.end(JSON.stringify({ message: "Not Found" }));
 };
