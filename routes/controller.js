@@ -9,6 +9,8 @@ const app = http.createServer((req, res) => {
 
   if (reqUrl.pathname === '/rooms' && req.method === 'GET') {
     service.getRooms(req, res);
+  } else if (reqUrl.pathname === '/room' && req.method === 'GET') {
+    service.getOneRoom(req, res);
   } else {
     service.invalidRequest(req, res);
   }

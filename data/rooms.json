@@ -10,6 +10,7 @@
       "checkin": "15:00",
       "checkout": "12:00",
       "price": 20,
+      "image": "https://res.cloudinary.com/drcjcovjy/image/upload/v1570407753/loscocos/room_1_hn4hja.png",
       "bookings": [
         "05/09/2019",
         "06/09/2019",
@@ -24,7 +25,7 @@
     },
     {
       "id": 2,
-      "name": "Seet Bungalow",
+      "name": "Sweet Bungalow",
       "description": "The perfect blend of comfort and culture, our superior room with a central garden view.",
       "size": "50m2",
       "beds": 1,
@@ -32,6 +33,7 @@
       "checkin": "14:00",
       "checkout": "11:00",
       "price": 35,
+      "image": "https://res.cloudinary.com/drcjcovjy/image/upload/v1570407753/loscocos/room_2_gkgdye.png",
       "bookings": [
         "10/10/2019",
         "26/03/2019",
@@ -49,7 +51,40 @@
       "checkin": "14:00",
       "checkout": "12:00",
       "price": 45,
+      "image": "https://res.cloudinary.com/drcjcovjy/image/upload/v1570407756/loscocos/room_3_lfhrpm.png",
       "bookings": []
+    },
+    {
+      "id": 4,
+      "name": "Pelican Room",
+      "description": "You will enjoy the terrace with a amazing beach view",
+      "size": "40m2",
+      "beds": 3,
+      "people": 6,
+      "checkin": "14:00",
+      "checkout": "13:00",
+      "price": 65,
+      "image": "https://res.cloudinary.com/drcjcovjy/image/upload/v1570408180/loscocos/room4_lkdaz5.png",
+      "bookings": [
+        "01/01/2019",
+        "02/01/2019",
+        "03/01/2019",
+        "12/01/2019",
+        "13/01/2019",
+        "14/01/2019",
+        "15/01/2019",
+        "22/02/2019",
+        "23/02/2019",
+        "11/04/2019",
+        "12/04/2019",
+        "13/04/2019",
+        "28/05/2019",
+        "29/05/2019",
+        "06/06/2019",
+        "07/06/2019",
+        "08/06/2019",
+        "11/11/2019"
+      ]
     }
   ]
 }
